@@ -1,0 +1,67 @@
+#zhf-layout .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#zhf-layout .trigger:hover {
+  color: #1890ff;
+}
+
+#zhf-layout .logo {
+  position: relative;
+  padding: 0 24px;
+  overflow: hidden;
+  background: #001529;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+#zhf-layout .logo>a {
+  display: flex;
+  align-items: center;
+  height: 64px;
+}
+
+#zhf-layout .logo img {
+  height: 32px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#zhf-layout .logo h1 {
+  display: inline-block;
+  margin: 0 0 0 12px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  vertical-align: middle;
+  animation: fade-in;
+  animation-duration: .3s;
+}
+
+.zhf-layout-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 64px;
+  padding: 0;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,21,41,.08);
+  z-index: 9;
+}
+
+.zhf-layout-header .zhf-header-left {
+  width: 10%;
+}
+
+.zhf-layout-header .zhf-header-right {
+  width: 90%;
+  text-align: right;
+}
+
+#zhf-right-context {
+  min-height: 100vh;
+}
